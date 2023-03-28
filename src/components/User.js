@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 class User extends Component {
   render() {
-    const {name,department,salary} = this.props
+    const {name,department,salary} = this.props 
 
     return (
       <div className='col-md-8 mb-4'>

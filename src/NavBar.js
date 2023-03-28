@@ -9,10 +9,10 @@ function NavBar(props) {
     </div>
   )
 }
-NavBar.propTypes = {
+NavBar.propTypes = { //title string girilmesi zorunlu
     title : PropTypes.string.isRequired
 }
-NavBar.defaultProps = {
+NavBar.defaultProps = { //title null olursa yazdılıcak öğe
     title : "Default App"
 }
 
