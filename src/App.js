@@ -1,21 +1,25 @@
 
 import './App.css';
+import React from 'react';
+import User from './components/User';
+import NavBar from './NavBar';
 
 function App() {
-  const test = 59;
-  const isAuth = true;
-
   return (
-    <div className="App">
-       <h4>{7+9}</h4>
-       <h4>{"Yiğit".toUpperCase()}</h4>
-       <h4>{test}</h4>
-       <div>
-        {
-          isAuth ? <p>Kullanıcı Kayıtlı</p>
-          : null
-        }
-       </div>
+    <div className="container">
+       <NavBar title='User App'/>
+       <hr />
+       <User
+       name = "Yiğit Tilki"
+       salary = "10000$"
+       department = "Computer Engineering"
+       
+       />
+       <User
+       name = "Birol Tilki"
+       department = "Head Teacher"
+       
+       />
         </div>
   );
 }
