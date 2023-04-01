@@ -11,28 +11,28 @@ function App() {
       id: "e1",
       title: "toilet paper",
       amount: 94.2,
-      date: new Date(2022, 7, 14)
+      date: new Date(2022, 6, 14)
 
     },
     {
       id: "e2",
       title: "car insurance",
       amount: 450.2,
-      date: new Date(2022, 7, 14)
+      date: new Date(2022, 3, 14)
 
     },
     {
       id: "e3",
       title: "new phone",
       amount: 700.25,
-      date: new Date(2022, 7, 14)
+      date: new Date(2022, 2, 14)
 
     },
     {
       id: "e4",
       title: "new desktop",
       amount: 120.50,
-      date: new Date(2022, 7, 14)
+      date: new Date(2022, 1, 14)
 
     }
   ];
